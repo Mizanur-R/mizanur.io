@@ -18,7 +18,11 @@
   -o-transition: .3s; }
 
 .close-btn:hover {
-  transform: scale(1.3); }
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3); }
 
 .close-btn-span, .about .close-btn span, .resume .close-btn span, .portfolio .close-btn span, .blog .close-btn span, .contact .close-btn span {
   font-size: 35px;
@@ -67,7 +71,11 @@
   -o-transition: .3s; }
 
 .close-btn:hover {
-  transform: scale(1.3); }
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3); }
 
 .close-btn-span, .about .close-btn span, .resume .close-btn span, .portfolio .close-btn span, .blog .close-btn span, .contact .close-btn span {
   font-size: 35px;
@@ -314,7 +322,7 @@ header {
   -o-transform: translateY(0) !important; }
 
 .hero {
-  background: url("../img/hero2.png") center center no-repeat;
+  background: url("../img/d2.png") center center no-repeat;
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -349,7 +357,7 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #01011fc4;
+  background: #01011f8a;
   z-index: -1; }
 
 .social {

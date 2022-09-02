@@ -9,7 +9,8 @@ $p-color: #444444;
 $heading-size: 44px;
 $responsive-heading: 23px;
 $menu-color: #ccc; // menu font color
-$hero-overly: #01011fc4;
+// $hero-overly: #01011fc4;
+$hero-overly: #01011f8a;
 $bar-bg-color: #ed502e;
 
 // $gradient: linear-gradient(to right top, #c50ba6, #0a1dfd);
@@ -34,6 +35,10 @@ $bar-bg-color: #ed502e;
 }
 .close-btn:hover{
     transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
 }
 .close-btn-span{
     font-size: 35px;
